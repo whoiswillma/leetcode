@@ -35,14 +35,8 @@ class Solution:
         return max(f(i) for i in range(n))
 
 
-assert Solution().maxJumps(
-    arr=[6, 4, 14, 6, 8, 13, 9, 7, 10, 6, 12], d=2
-) == 4
+assert Solution().maxJumps(arr=[6, 4, 14, 6, 8, 13, 9, 7, 10, 6, 12], d=2) == 4
 
-assert Solution().maxJumps(
-    arr=[3, 3, 3, 3, 3], d=3
-) == 1
+assert Solution().maxJumps(arr=[3, 3, 3, 3, 3], d=3) == 1
 
-assert Solution().maxJumps(
-    arr=[7, 6, 5, 4, 3, 2, 1], d=1
-) == 7
+assert Solution().maxJumps(arr=[7, 6, 5, 4, 3, 2, 1], d=1) == 7
