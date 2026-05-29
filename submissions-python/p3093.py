@@ -40,14 +40,14 @@ class Solution:
     def stringIndices(
         self, wordsContainer: List[str], wordsQuery: List[str]
     ) -> List[int]:
-        trie = TrieNode(-1, 10 ** 4)
+        trie = TrieNode(-1, 10**4)
 
         for i, word in enumerate(wordsContainer):
-            trie.insert(''.join(reversed(word)), i)
+            trie.insert("".join(reversed(word)), i)
 
         trie.print()
 
-        return [trie.get(''.join(reversed(query))) for query in wordsQuery]
+        return [trie.get("".join(reversed(query))) for query in wordsQuery]
 
 
 assert Solution().stringIndices(
