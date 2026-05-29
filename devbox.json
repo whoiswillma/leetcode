@@ -2,7 +2,8 @@
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.17.1/.schema/devbox.schema.json",
   "packages": [
     "jujutsu@latest",
-    "uv@latest"
+    "uv@latest",
+    "clang@latest"
   ],
   "shell": {
     "init_hook": [

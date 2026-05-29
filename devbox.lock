@@ -1,6 +1,54 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "clang@latest": {
+      "last_modified": "2026-04-23T13:07:47Z",
+      "resolved": "github:NixOS/nixpkgs/01fbdeef22b76df85ea168fbfe1bfd9e63681b30#clang",
+      "source": "devbox-search",
+      "version": "21.1.8",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rwsbw420hcq148hifv7fga6r4g0k1dw8-clang-wrapper-21.1.8",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rwsbw420hcq148hifv7fga6r4g0k1dw8-clang-wrapper-21.1.8"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/07dbczj01x1g8876yc11mrpdilqjq0vz-clang-wrapper-21.1.8",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/07dbczj01x1g8876yc11mrpdilqjq0vz-clang-wrapper-21.1.8"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/b27wqif15k5b2k7j13ajh401d2g4a9m6-clang-wrapper-21.1.8",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/b27wqif15k5b2k7j13ajh401d2g4a9m6-clang-wrapper-21.1.8"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mw4gasdvwgscgpxpzihjgchfhs3hhqhn-clang-wrapper-21.1.8",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mw4gasdvwgscgpxpzihjgchfhs3hhqhn-clang-wrapper-21.1.8"
+        }
+      }
+    },
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
       "last_modified": "2026-05-15T18:21:44Z",
       "resolved": "github:NixOS/nixpkgs/d233902339c02a9c334e7e593de68855ad26c4cb?lastModified=1778869304&narHash=sha256-30sZNZoA1cqF5JNO9fVX%2BwgiQYjB7HJqqJ4ztCDeBZE%3D"
