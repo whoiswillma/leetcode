@@ -1,11 +1,7 @@
 import heapq
 from typing import List, Optional
 
-
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+from data_structures import ListNode, collect, from_list
 
 
 class Solution:
@@ -31,28 +27,9 @@ class Solution:
         return root.next
 
 
-def collect(node: Optional[ListNode]) -> list[int]:
-    result = []
-
-    while node is not None:
-        result.append(node.val)
-        node = node.next
-
-    return result
-
-
-def from_list(l: list[int]) -> Optional[ListNode]:
-    root = tail = ListNode()
-
-    for v in l:
-        tail.next = ListNode(v)
-        tail = tail.next
-
-    return root.next
-
-
 assert collect(
     Solution().mergeKLists(
         [from_list(l) for l in [[1, 4, 5], [1, 3, 4], [2, 6]]],
     )
 ) == [1, 1, 2, 3, 4, 4, 5, 6]
+print("All tests passed!")
