@@ -3,7 +3,8 @@
   "packages": [
     "jujutsu@latest",
     "uv@latest",
-    "clang@latest"
+    "clang@latest",
+    "gdb@latest"
   ],
   "shell": {
     "init_hook": [
