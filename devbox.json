@@ -4,7 +4,8 @@
     "jujutsu@latest",
     "uv@latest",
     "clang@latest",
-    "gdb@latest"
+    "gdb@latest",
+    "rustup@latest"
   ],
   "shell": {
     "init_hook": [
