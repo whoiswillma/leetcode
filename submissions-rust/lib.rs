@@ -2,6 +2,7 @@ mod p1301;
 mod p1406;
 mod p3014;
 mod p3016;
+mod p3302;
 mod p3310;
 mod p3345;
 mod p3731;
