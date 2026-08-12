@@ -5,7 +5,8 @@
     "uv@latest",
     "clang@latest",
     "gdb@latest",
-    "rustup@latest"
+    "rustup@latest",
+    "nodejs@latest"
   ],
   "shell": {
     "init_hook": [
