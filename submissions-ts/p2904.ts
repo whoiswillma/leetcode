@@ -25,8 +25,6 @@ function shortestBeautifulSubstring(s: string, k: number): string {
       }
     }
 
-    console.log(i, j, s.substring(i, j), numOnes === k);
-
     if (s.charAt(i) === "1") {
       numOnes -= 1;
     }
