@@ -36,7 +36,6 @@ function lexGreaterPermutation(s: string, target: string): string {
     if (matching) {
       const ci = popChar(t.codePointAt(0)! - baseCodePoint);
       if (ci === null) {
-        console.log("popChar(...) === null");
         return "";
       }
 
@@ -48,14 +47,12 @@ function lexGreaterPermutation(s: string, target: string): string {
     } else {
       const ci = popMinChar();
       if (ci === null) {
-        console.log("popMinChar() === null");
         return "";
       }
 
       const c = String.fromCharCode(ci + baseCodePoint);
       ans += c;
     }
-    console.log(t, matching, ans);
   }
 
   if (matching) {
